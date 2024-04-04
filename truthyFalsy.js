@@ -2,7 +2,7 @@
 //  false, 0, -0, BigInt 0n, "", null, undefined, NaN 
 
 // Some Truthy Values:
-//  "0", 'false', " ", [], {}, function(){}
+//  "0", 'false', " ", [], {}, function(){}, etc...
 
 const userEmail = "aditya@google.com";
 if(userEmail){
