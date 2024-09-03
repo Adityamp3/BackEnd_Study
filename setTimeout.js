@@ -1,3 +1,5 @@
+// This is important JavaScript Interview question on setTimeout.
+
 console.log("X");
 
 setTimeout(()=>{
@@ -15,3 +17,11 @@ setTimeout(()=>{
 }, 1500);
 
 console.log("End");
+
+// Output:
+// X
+// End
+// Y
+// Hello!
+// W
+// Z
