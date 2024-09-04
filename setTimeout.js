@@ -76,3 +76,24 @@ counter();
 // 4
 // 4
 // 4
+
+
+let i=0;
+for(i=1; i<=4; i++) {
+    setTimeout(() => {
+        console.log(i);
+    }, i * 1000);
+}
+
+// // Output:
+// 5
+// 5
+// 5
+// 5
+
+// Question to create a function which can be invoked like this
+var addSix = createBase(6);
+addSix(10);   // return 16
+addSix(21);   // return 27
+
+
